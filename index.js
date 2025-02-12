@@ -1,1 +1,3 @@
 document.querySelector('main').style.flex = 'calc(100% - 20% - 55px)';
+
+//WTF
