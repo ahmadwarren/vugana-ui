@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vugana</title>
+    <link rel="stylesheet" href="app/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <a href="#" class="logo">
+                <span>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> -->
+                     <img src="assets/img/icon.png" alt="">
+                </span>
+                <b>Vugana</b>
+            </a>
+            <a href="./">
+                <span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M225.38 233.37c-12.5 12.5-12.5 32.76 0 45.25 12.49 12.5 32.76 12.5 45.25 0 12.5-12.5 12.5-32.76 0-45.25-12.5-12.49-32.76-12.49-45.25 0zM248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm126.14 148.05L308.17 300.4a31.938 31.938 0 0 1-15.77 15.77l-144.34 65.97c-16.65 7.61-33.81-9.55-26.2-26.2l65.98-144.35a31.938 31.938 0 0 1 15.77-15.77l144.34-65.97c16.65-7.6 33.8 9.55 26.19 26.2z"/></svg>                
+                </span>
+                <b>Explora</b>
+            </a>
+            <a href="chat.html" class="active">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z" />
+                    </svg>
+                </span>
+                <b>Chats</b>
+            </a>
+            <a href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path
+                            d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z" />
+                    </svg>
+                </span>
+                <b>Groups</b>
+            </a>
+            <a href="#">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" />
+                    </svg>
+                </span>
+                <b>Calls</b>
+            </a>
+        </div>
+    </nav>
+
+    <div class="navigator">
+        <!-- Header for chat list : may contain a search bar and other filters -->
+        <header>
+            <form action="" method="get">
+                <div class="search-bar-users">
+                    <input type="search" id="search" name="search" placeholder="search user here ..">
+                </div>
+            </form>
+            <div class="quick-nav-filter">
+                <a href="#" class="active">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path
+                                d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z" />
+                        </svg>
+                    </span>
+                    <b>All</b>
+                </a>
+                <a href="#">
+                    <b>Unread</b>
+                </a>
+                <a href="#">
+                    <span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M433.941 129.941l-83.882-83.882A48 48 0 0 0 316.118 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V163.882a48 48 0 0 0-14.059-33.941zM224 416c-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64s64 28.654 64 64c0 35.346-28.654 64-64 64zm96-304.52V212c0 6.627-5.373 12-12 12H76c-6.627 0-12-5.373-12-12V108c0-6.627 5.373-12 12-12h228.52c3.183 0 6.235 1.264 8.485 3.515l3.48 3.48A11.996 11.996 0 0 1 320 111.48z" />
+                        </svg> 
+                    </span>
+                    <b>Bookmarked</b>
+                </a>
+                <a href="#">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" />
+                        </svg>
+                    </span>
+                    <b>Calls</b>
+                </a>
+            </div>
+        </header>
+        <!-- Chat list  -->
+        <div class="users-list">
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+            <!-- /* From Uiverse.io by JohnnyCSilva */ -->
+            <a class="card" href="/68971535">
+                <div class="img"></div>
+                <div class="textBox">
+                    <div class="textContent">
+                        <p class="h1">Clans of Clash</p>
+                        <span class="span">12 min ago</span>
+                    </div>
+                    <p class="p">Xhattmahs is not attacking your base!</p>
+                    <div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <main class="chat-main">
+        <section>
+            <div class="chat-header">
+                <button onclick="location.href='./'" title="back button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z">
+                        </path>
+                    </svg>
+                    <div class="img"><img src="img/duto_images16614311131661411908734.jpg" alt=""></div>
+                </button>
+                <a href="user/?uid=1372469828">
+                    <h1>Cyprus Expert </h1>
+                </a>
+                <div class="amd online">
+                </div>
+            </div>
+            <!-- message viewer -->
+            <div class="chat-msg-viewer">
+                
+            </div>
+
+            <!-- Message input  -->
+            <div class="chat-input">
+                <div class="bottom-bar">
+                    <button class="icon-button" onclick="alert('Emoji picker would open here')">
+                        😊
+                    </button>
+                    <button class="icon-button" onclick="alert('File attachment options would show here')">
+                        📎
+                    </button>
+                    <div class="input-wrapper">
+                        <input type="text" id="message-input" placeholder="Type a message...">
+                    </div>
+                    <button id="send-button" class="icon-button" onclick="alert('Message sent!')">
+                        ➤
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside>
+
+    </aside>
+</body>
+
+</html>

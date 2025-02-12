@@ -1,0 +1,11 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Chat App UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Ahmad Warren",
+  "license": "ISC"
+}
